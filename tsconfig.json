@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"moduleResolution": "node",
+		"outDir": "../dist",
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"noEmitOnError": true,
+		"sourceMap": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["esnext", "esnext.asynciterable"],
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve"
+	},
+	"include": ["./**/*.ts", "components/index.tsx"],
+	"exclude": ["node_modules", "./**/*.test.ts"]
+}
